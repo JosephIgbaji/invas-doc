@@ -1,0 +1,76 @@
+:root {
+  --vp-c-brand-1: #0052cc;
+  --vp-c-brand-2: #1d4ed8;
+  --vp-c-brand-3: #2563eb;
+  --vp-c-brand-soft: rgba(0, 82, 204, 0.12);
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #0052cc 30%, #38bdf8);
+}
+
+.dark {
+  --vp-c-brand-1: #3b82f6;
+  --vp-c-brand-2: #60a5fa;
+  --vp-c-brand-3: #93c5fd;
+  --vp-c-brand-soft: rgba(59, 130, 246, 0.16);
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #60a5fa 30%, #38bdf8);
+}
+
+/* Screenshot & Image Styling */
+.doc-image {
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  border: 1px solid var(--vp-c-divider);
+  background-color: var(--vp-c-bg-soft);
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.doc-image img {
+  border-radius: 6px;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.doc-image .caption {
+  font-size: 0.85rem;
+  color: var(--vp-c-text-2);
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+/* Feature grid enhancements */
+.feature-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 12px;
+  background-color: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+  margin-bottom: 0.5rem;
+}
+
+/* API Endpoints Badge */
+.http-method {
+  display: inline-block;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin-right: 6px;
+  font-family: var(--vp-font-family-mono);
+}
+.http-get { background: #10b981; color: #fff; }
+.http-post { background: #3b82f6; color: #fff; }
+.http-put { background: #f59e0b; color: #fff; }
+.http-delete { background: #ef4444; color: #fff; }
+
+/* Table enhancements */
+table {
+  width: 100%;
+  display: table;
+}
